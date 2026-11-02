@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>turtlebot3_sim_project</name>
+  <version>0.0.1</version>
+  <description>
+    TurtleBot3 Simulation in Gazebo — spawns a TurtleBot3 (waffle_pi) in a
+    custom obstacle world, with teleoperation and RViz visualization support.
+  </description>
+
+  <maintainer email="you@example.com">Sivaney</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <exec_depend>gazebo_ros</exec_depend>
+  <exec_depend>turtlebot3_gazebo</exec_depend>
+  <exec_depend>turtlebot3_teleop</exec_depend>
+  <exec_depend>turtlebot3_bringup</exec_depend>
+
+  <export></export>
+</package>
